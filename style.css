@@ -1,0 +1,212 @@
+/* font-family: 'Playfair Display', serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: auto;
+
+}
+.logo{
+    width: 20%;
+    
+}
+nav{
+    width: 50%;
+   
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif
+}                                        /*Header part end*/
+
+/*Banar part start*/
+.banar{
+    padding-top: 15px;
+    width: 90%;
+    margin: auto
+}
+.banar img{
+    width: 100%;
+}
+/*Banar part end*/
+
+/* PhotoDiary part start*/
+.photodiary{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+.photodiary h5{
+    font-size: 14px;
+    color: #b4ad9e;
+    margin-bottom: 30px;
+}
+.photodiary h1{
+    color: #626262;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif
+}
+.photodiary p{
+    font-size: 16px;
+    color: #626262;
+    margin: 30px 0;
+    font-family: 'Playfair Display', serif
+}   
+/* PhotoDiary part start*/
+
+
+
+/*Life Style part start*/
+.life_style{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.life_style1{
+    width: 48%;
+    margin-top: 60px;
+}
+.life_style1 img{
+    width: 100%;
+}
+.life_style1 h5{
+    margin-top:25px ;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.life_style1 h1{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif
+}
+.life_style1 p{
+    font-size: 16px;
+    margin: 15px 0;
+    font-family: 'Playfair Display', serif
+}
+/*Life Style part end*/
+
+/*Contact form start*/
+.Contact_form{
+    background-color: #f0f0f0;
+    padding: 80px;
+   
+}
+.sing_up{
+    width: 32%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.sing_up h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Playfair Display', serif
+    
+}
+.sing_up input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 80px;
+
+}
+.sing_up input::placeholder{
+    font-size: 15px;
+    color: #333333;
+    font-family: 'Playfair Display', serif
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0;
+}
+
+/*Cntact form end*/
+
+/*Button start */
+.load_more{
+    height: 200px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.load_more button{
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid black;
+    font-family: 'Playfair Display', serif
+}
+/*Button end*/
+
+footer{
+   background-color: #f0f0f0;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.trems{
+   width: 15%;
+}
+.trems ul{
+    display: flex;
+    justify-content: space-between;
+}
+.trems ul li{
+    list-style-type: none;
+} 
+.trems ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Playfair Display', serif
+}
+
+
+.social_icon{
+    width: 10%;
+}
+.social_icon ul{
+    display: flex;
+    justify-content: space-between;
+}
+.social_icon ul li{
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif
+
+}
+.social_icon ul li a{
+    text-decoration: none;
+    color: #333333;
+   
+}
